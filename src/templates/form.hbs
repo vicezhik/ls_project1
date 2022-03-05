@@ -1,0 +1,14 @@
+{{#each list}}
+<div class="item">
+   <div class="name">{{name}} [{{place}}]</div> 
+   <div class="message">{{message}}</div>
+</div>
+{{/each}}
+<h3>Ваш отзыв:</h3>
+<form action="" method="post" id="reviewForm">
+    <input type="hidden" name="coords" value="{{coords}}"/>
+    <div><input type="text" name="name" placeholder="Укажите Ваше имя"/></div>
+    <div><input type="text" name="place" placeholder="Укажите место"/></div>
+    <div><textarea name="message" placeholder="Оставьте отзыв"></textarea></div>
+    <div><button type="submit" id="reviewButton">Отправить</button></div>
+</form>

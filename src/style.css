@@ -6,3 +6,9 @@ body {
     width: 100%;
     height: 100vh;
 }
+#reviewForm div{
+margin-bottom: 10px;
+}
+#reviewForm input{width:300px;padding:10px; border:1px solid #ccc; border-radius:0;box-sizing: border-box;}
+#reviewForm textarea{width:100%;padding:10px; border:1px solid #ccc; border-radius:0;box-sizing: border-box;height: 100px;}
+#reviewForm .error{border-color:red}
